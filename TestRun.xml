@@ -1,0 +1,9 @@
+<suite name="TestNg Tutorial Run">
+    <test name="'Regression suite Ebay">
+        <classes>
+            <class name="com.suresh.learning.testng.test.SecondTest" />
+            <class name="com.suresh.learning.testng.test.Thirdtest" />
+
+        </classes>
+    </test>
+</suite>

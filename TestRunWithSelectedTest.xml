@@ -1,0 +1,18 @@
+<suite name="TestNg Tutorial Run">
+    <test name="'Regression suite Ebay">
+        <classes>
+            <class name="com.suresh.learning.testng.test.SecondTest">
+                <methods>
+                    <include name="MySecondTestWithSoftAssert"/>
+                </methods>
+
+            </class>
+            <class name="com.suresh.learning.testng.test.Thirdtest">
+                <methods>
+                    <exclude name="MyThirdTestWithSoftAssert"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
