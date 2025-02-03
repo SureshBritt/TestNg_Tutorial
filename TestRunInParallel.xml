@@ -1,0 +1,17 @@
+<suite name="TestNg Tutorial Run by Groups" parallel="classes" thread-count="2">
+    <parameters>
+        <parameter name="browser" value="Chrome" />
+    </parameters>
+    <groups>
+        <run>
+            <include name="smoke" />
+        </run>
+    </groups>
+    <test name="'Smoke suite Ebay">
+        <classes>
+            <class name="com.suresh.learning.testng.test.Ebay_Home_Sanity" />
+            <class name="com.suresh.learning.testng.test.Ebay_Advanced_Search_Sanity" />
+
+        </classes>
+    </test>
+</suite>

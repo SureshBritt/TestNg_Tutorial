@@ -1,0 +1,23 @@
+<suite name="TestNg Tutorial Run">
+    <test name="Test 1">
+        <classes>
+            <class name="com.suresh.learning.testng.test.DemoTest">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="com.suresh.learning.testng.test.DemoTest">
+                <methods>
+                    <include name="Test2"/>
+                    <include name="Test4"/>
+                    <include name="Test5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
